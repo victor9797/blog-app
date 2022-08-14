@@ -1,4 +1,4 @@
-# A simple Blog App with the MERN stack.
+# A simple Blog App with the MERN stack to learn more about Mongo DB.
 
 SPA Pages to add
 
