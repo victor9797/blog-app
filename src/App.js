@@ -1,7 +1,12 @@
-import './App.css';
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
-import Users from './users/containers/Users';
-import NewBlog from './blogs/containers/NewBlog';
+import "./App.css";
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch,
+} from "react-router-dom";
+import Users from "./users/containers/Users";
+import NewBlog from "./blogs/containers/NewBlog";
 
 const App = () => {
   return (
@@ -15,11 +20,10 @@ const App = () => {
           <NewBlog />
         </Route>
 
-        <Redirect to="/"/>
+        <Redirect to="/" />
       </Switch>
     </Router>
   );
-}
-
+};
 
 export default App;
