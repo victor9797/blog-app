@@ -1,0 +1,5 @@
+.li-component { 
+    list-style: none;
+    margin-top: 1rem;
+    max-width: 50%;
+}

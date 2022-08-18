@@ -1,4 +1,6 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+
 import {
   BrowserRouter as Router,
   Route,
