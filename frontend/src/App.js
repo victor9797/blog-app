@@ -1,5 +1,4 @@
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.css";
+import React from "react";
 
 import {
   BrowserRouter as Router,
@@ -7,12 +6,17 @@ import {
   Redirect,
   Switch,
 } from "react-router-dom";
-import Users from "./users/containers/Users";
-import NewBlog from "./blogs/containers/NewBlog";
+
+import Users from "./users/containers/Users"
+import NewBlog from "./blogs/containers/NewBlog"
+import Navigation from "./shared/components/Navigation/Navigation";
+
+import "./App.css";
 
 const App = () => {
   return (
     <Router>
+      <Navigation />
       <Switch>
         <Route path="/" exact>
           <Users />

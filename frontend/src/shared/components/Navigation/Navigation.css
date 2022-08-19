@@ -1,0 +1,23 @@
+.navbar__link-component {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar__link-component:link {
+  color: black;
+}
+
+/* visited link */
+.navbar__link-component:visited {
+  color: black;
+}
+
+/* mouse over link */
+.navbar__link-component:hover {
+  color: black;
+}
+
+/* selected link */
+.navbar__link-component:active {
+  color: black;
+}
