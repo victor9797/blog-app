@@ -7,11 +7,12 @@ import {
   Switch,
 } from "react-router-dom";
 
-import Users from "./users/containers/Users"
-import NewBlog from "./blogs/containers/NewBlog"
+import Users from "./users/containers/Users";
+import NewBlog from "./blogs/containers/NewBlog";
 import Navigation from "./shared/components/Navigation/Navigation";
 
 import "./App.css";
+import Auth from "./users/containers/Auth";
 
 const App = () => {
   return (
@@ -24,6 +25,10 @@ const App = () => {
 
         <Route path="/blogs/new" exact>
           <NewBlog />
+        </Route>
+
+        <Route path="/auth" exact>
+          <Auth />
         </Route>
 
         <Redirect to="/" />

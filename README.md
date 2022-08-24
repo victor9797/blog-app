@@ -4,9 +4,9 @@ SPA Pages to add
 
 - / -> List all users
 
-- /:id/blogs -> List blogs for the given user 
+- /:id/blogs -> List blogs for the given user
 
-- /authenticate -> Signup + Login Forms
+- /auth -> Signup + Login Forms
 
 - /blogs/new -> Create new blog
 
