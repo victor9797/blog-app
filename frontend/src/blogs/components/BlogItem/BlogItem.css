@@ -3,3 +3,7 @@
     margin-top: 1rem;
     max-width: 50%;
 }
+
+.button-component {
+    display: block !important;
+}
