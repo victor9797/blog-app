@@ -9,7 +9,7 @@ import {
 
 import Users from "./users/containers/Users";
 import NewBlog from "./blogs/containers/NewBlog";
-import Navigation from "./shared/components/Navigation/Navigation";
+import Nav from "./shared/components/Navigation/Nav/Nav";
 
 import "./App.css";
 import Auth from "./users/containers/Auth";
@@ -18,7 +18,7 @@ import UserBlogs from "./blogs/containers/UserBlogs";
 const App = () => {
   return (
     <Router>
-      <Navigation />
+      <Nav />
       <Switch>
         <Route path="/" exact>
           <Users />

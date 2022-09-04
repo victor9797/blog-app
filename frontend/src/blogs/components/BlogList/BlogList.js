@@ -21,6 +21,7 @@ const BlogList = (props) => {
           id={item.id}
           image={item.image}
           title={item.title}
+          caption={item.caption}
           text={item.text}
           author={item.author}
           location={item.location}

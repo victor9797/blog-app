@@ -4,11 +4,11 @@ import { NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 
-import Header from "./Header";
-import "./Navigation.css";
-import NavLinks from "./NavLinks";
+import Header from "../Header/Header";
+import "./Nav.css";
+import NavLinks from "../NavLinks/NavLinks";
 
-const Navigation = (props) => {
+const Nav = (props) => {
   return (
     <Header>
       <Navbar bg="light" expand="lg">
@@ -28,4 +28,4 @@ const Navigation = (props) => {
   );
 };
 
-export default Navigation;
+export default Nav;

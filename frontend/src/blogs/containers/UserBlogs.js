@@ -7,8 +7,9 @@ const dummyBlogs = [
     id: "p1",
     image:
       "https://images.squarespace-cdn.com/content/v1/592a3ccad2b857159c817d9a/1634072814176-1FVB83JZHMX9EH25QNQ2/20211012_Estadio_Azteca.jpg",
-    title: "The biggest football stadium in America",
+    title: "The biggest football stadium in America 1",
     text: "El Estadio Azteca (popularmente conocido como El Coloso de Santa Úrsula) es un estadio de fútbol en México (futbol, en ese país), ubicado en la colonia Santa Úrsula Coapa, en la alcaldía Coyoacán, en la zona sur de la Ciudad de México, con capacidad para 87 000 espectadores, lo que lo convierte en el más grande del país,",
+    caption: "Azteca Stadium 1",
     author: "u1",
     location: "Mexico City",
     coordinates: {
@@ -20,8 +21,9 @@ const dummyBlogs = [
     id: "p2",
     image:
       "https://images.squarespace-cdn.com/content/v1/592a3ccad2b857159c817d9a/1634072814176-1FVB83JZHMX9EH25QNQ2/20211012_Estadio_Azteca.jpg",
-    title: "The biggest football stadium in America",
+    title: "The biggest football stadium in America 2",
     text: " It is the official home of football club Club América, Cruz Azul and the Mexico national football team. The stadium sits at an altitude of 2,200 m (7,200 feet) above sea level",
+    caption: "Azteca Stadium 2",
     author: "u2",
     location: "Mexico City",
     coordinates: {
@@ -33,8 +35,9 @@ const dummyBlogs = [
     id: "p3",
     image:
       "https://images.squarespace-cdn.com/content/v1/592a3ccad2b857159c817d9a/1634072814176-1FVB83JZHMX9EH25QNQ2/20211012_Estadio_Azteca.jpg",
-    title: "The biggest football stadium in America",
+    title: "The biggest football stadium in America 3",
     text: " It is the official home of football club Club América, Cruz Azul and the Mexico national football team. The stadium sits at an altitude of 2,200 m (7,200 feet) above sea level",
+    caption: "Azteca Stadium 3",
     author: "u2",
     location: "Mexico City",
     coordinates: {
